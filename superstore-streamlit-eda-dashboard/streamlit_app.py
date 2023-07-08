@@ -16,7 +16,7 @@ if fl is not None:
     df = pd.read_csv(filename, encoding = "ISO-8859-1")
     st.write(df.head(2))
 else:
-    os.chdir(r"F:\cli\Data_science_portfolios\DataScience_with_streamlit_dashboard\stremlit-dashboard")
+    os.chdir(r"https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/blob/main/superstore-streamlit-eda-dashboard")
     df = pd.read_csv("SampleSuperstore.csv", encoding = "ISO-8859-1")
     st.write(df.head(2))
 
