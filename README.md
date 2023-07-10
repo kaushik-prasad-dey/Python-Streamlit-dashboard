@@ -33,5 +33,9 @@ df=sns.load_dataset('iris')
 st.write(df.head(10))
 
 # Streamlit URL :  [![Python application](https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/actions/workflows/python-app.yml/badge.svg)](https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/actions/workflows/python-app.yml)
+
+# Dashboard Screenshots :
+![image](https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/assets/109330283/dca6bf8d-49dd-4489-964a-06ec00518aa6)
+
 https://interactiveapp.streamlit.app/
 
