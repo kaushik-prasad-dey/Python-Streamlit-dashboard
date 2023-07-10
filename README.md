@@ -1,5 +1,6 @@
 # Python Streamlit dashboard
 official website : https://streamlit.io/
+[![Python application](https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/actions/workflows/python-app.yml/badge.svg)](https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/actions/workflows/python-app.yml)
 # what is streamlit ??
 Streamlit is an open-source app framework in python language. It helps us create beautiful web apps for data science and machine learning in a little time. 
 It is compatible with major python libraries such as scikit-learn, keras, PyTorch, latex, numpy, pandas, matplotlib, etc
