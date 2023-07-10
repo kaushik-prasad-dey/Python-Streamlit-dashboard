@@ -1,9 +1,13 @@
 # Streamlit dashboard
 official website : https://streamlit.io/
 
-# what is streamlit ??
+# what is streamlit
 Streamlit is an open-source app framework in python language. It helps us create beautiful web apps for data science and machine learning in a little time. 
-It is compatible with major python libraries such as scikit-learn, keras, PyTorch, latex, numpy, pandas, matplotlib, etc
+It is compatible with major python libraries such as scikit-learn, keras, PyTorch, latex, numpy, pandas, matplotlib, etc.
+
+# SuperStore Data
+ This is a sample superstore dataset, a kind of a simulation where you perform extensive data analysis to deliver insights on how the company can increase 
+ its profits while minimizing the losses.
 # virtual environment steps :
 python -m venv venv
 
