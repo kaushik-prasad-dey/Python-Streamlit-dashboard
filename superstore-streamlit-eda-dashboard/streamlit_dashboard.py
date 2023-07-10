@@ -10,7 +10,6 @@ st.set_page_config(page_title="Superstore data", page_icon=":bar_chart:",layout=
 st.title(" :bar_chart: EDA on SuperStore Data")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
 uploaded_file = st.file_uploader(":file_folder: Upload a file",type=(["csv","txt","xlsx","xls"]))
-df2 = pd.read_csv("Superstore.csv", encoding = "ISO-8859-1")
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file, encoding = "ISO-8859-1")
     writeb = st.write(df.head(1))
