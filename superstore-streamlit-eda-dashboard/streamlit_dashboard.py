@@ -13,6 +13,7 @@ st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow
 #df = pd.read_csv("Superstore.csv", encoding = "ISO-8859-1")
 
 uploaded_file = st.file_uploader(":file_folder: Upload a file",type=(["csv","txt","xlsx","xls"]))
+df2 = pd.read_csv("Superstore.csv", encoding = "ISO-8859-1")
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file, encoding = "ISO-8859-1")
     writeb = st.write(df.head(1))
