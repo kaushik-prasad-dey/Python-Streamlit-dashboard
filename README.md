@@ -8,16 +8,17 @@ It is compatible with major python libraries such as scikit-learn, keras, PyTorc
 # SuperStore Data
  This is a sample superstore dataset, a kind of a simulation where you perform extensive data analysis to deliver insights on how the company can increase 
  its profits while minimizing the losses.
+ 
 # virtual environment steps :
-python -m venv venv
+ python -m venv venv
 
-venv\Scripts\activate
+ venv\Scripts\activate
 
-venv\Scripts\deactivate
+ venv\Scripts\deactivate
 
-pip install -r requirements.txt
+ pip install -r requirements.txt
 
-streamlit run app.py
+ streamlit run app.py
 
 # sample code :
 import streamlit as st
