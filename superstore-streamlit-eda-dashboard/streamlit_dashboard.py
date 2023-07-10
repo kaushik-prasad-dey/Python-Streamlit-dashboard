@@ -12,15 +12,12 @@ st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow
 fl = st.file_uploader(":file_folder: Upload a file",type=(["csv","txt","xlsx","xls"]))
 #df = pd.read_csv("Superstore.csv", encoding = "ISO-8859-1")
 
-uploaded_file = st.file_uploader("Choose a file",type=(["csv","txt","xlsx","xls"]))
+uploaded_file = st.file_uploader(":file_folder: Upload a file",type=(["csv","txt","xlsx","xls"]))
 if uploaded_file is not None:
-  df = pd.read_csv(uploaded_file)
-  writeb = st.write(df.head(1))
-  print(writeb)
-if fl is not None:
-    filename = fl.name
-    st.write(filename)
-    df = pd.read_csv(filename, encoding = "ISO-8859-1")
+    df = pd.read_csv(uploaded_file, encoding = "ISO-8859-1")
+    writeb = st.write(df.head(1))
+    print(writeb)
+    #df = pd.read_csv(filename, encoding = "ISO-8859-1")
     st.write(df.head(2))
     col1, col2 = st.columns((2))
     df["Order Date"] = pd.to_datetime(df["Order Date"])
