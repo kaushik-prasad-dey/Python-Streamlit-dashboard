@@ -15,10 +15,10 @@ if fl is not None:
     st.write(filename)
     df = pd.read_csv(filename, encoding = "ISO-8859-1")
     st.write(df.head(2))
-else:
-    os.chdir(r"F:\cli\Data_science_portfolios\DataScience_with_streamlit_dashboard\stremlit-dashboard")
-    df = pd.read_csv("SampleSuperstore.csv", encoding = "ISO-8859-1")
-    st.write(df.head(2))
+#else:
+    #os.chdir(r"F:\cli\Data_science_portfolios\DataScience_with_streamlit_dashboard\stremlit-dashboard")
+    #df = pd.read_csv("SampleSuperstore.csv", encoding = "ISO-8859-1")
+    #st.write(df.head(2))
 
 col1, col2 = st.columns((2))
 df["Order Date"] = pd.to_datetime(df["Order Date"])
