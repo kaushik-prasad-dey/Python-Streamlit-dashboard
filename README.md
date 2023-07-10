@@ -1,4 +1,4 @@
-# Python Streamlit dashboard [![Python application](https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/actions/workflows/python-app.yml/badge.svg)](https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/actions/workflows/python-app.yml)
+# Streamlit dashboard [![Python application](https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/actions/workflows/python-app.yml/badge.svg)](https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/actions/workflows/python-app.yml)
 official website : https://streamlit.io/
 
 # what is streamlit ??
