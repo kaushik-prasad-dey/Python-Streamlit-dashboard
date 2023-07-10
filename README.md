@@ -37,8 +37,11 @@ st.write(df.head(10))
 
 https://interactiveapp.streamlit.app/
 
-# Dashboard Screenshots :
+# Dashboard Screenshots with Light Mode :
 ![image](https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/assets/109330283/dca6bf8d-49dd-4489-964a-06ec00518aa6)
+
+# Dashboard Screenshots with Dark Mode :
+![image](https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/assets/109330283/b1aa18ec-2b63-42fd-a737-16a805384e4d)
 
 
 
