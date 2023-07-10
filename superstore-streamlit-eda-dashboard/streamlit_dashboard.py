@@ -16,7 +16,7 @@ uploaded_file = st.file_uploader(":file_folder: Upload a file",type=(["csv","txt
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file, encoding = "ISO-8859-1")
     writeb = st.write(df.head(1))
-    print(writeb)
+    #print(writeb)
     #df = pd.read_csv(filename, encoding = "ISO-8859-1")
     st.write(df.head(2))
     col1, col2 = st.columns((2))
