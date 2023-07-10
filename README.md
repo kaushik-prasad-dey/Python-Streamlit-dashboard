@@ -1,4 +1,4 @@
-# Streamlit dashboard [![Python application](https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/actions/workflows/python-app.yml/badge.svg)](https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/actions/workflows/python-app.yml)
+# Streamlit dashboard
 official website : https://streamlit.io/
 
 # what is streamlit ??
@@ -28,6 +28,6 @@ df=sns.load_dataset('iris')
 
 st.write(df.head(10))
 
-# Default port :
-http://localhost:8501/
+# Streamlit URL :  [![Python application](https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/actions/workflows/python-app.yml/badge.svg)](https://github.com/kaushik-prasad-dey/Python-Streamlit-dashboard/actions/workflows/python-app.yml)
+https://interactiveapp.streamlit.app/
 
